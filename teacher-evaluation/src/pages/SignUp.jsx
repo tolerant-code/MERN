@@ -1,6 +1,6 @@
 import { Alert, Button, Spinner, TextInput } from 'flowbite-react';
 import { useState } from 'react';
-import { Link, useNavigate} from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 export default function SignUp() {
   const [formData, setFormData] = useState({});
   const [errorMessage, setErrorMessage] = useState(null);
@@ -44,7 +44,7 @@ export default function SignUp() {
           className='font-bold dark:text-white text-4l'>
           <span className='px-2 py-1 bg-gradient-to-r from-indigo-500
         via-purple-500 to-pink-500 rounded-lg text-white'>Employe Evaluation
-          Someone's
+          Someone
           </span> 
           Project
         </Link>
