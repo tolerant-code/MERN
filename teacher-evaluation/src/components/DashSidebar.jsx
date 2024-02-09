@@ -1,4 +1,4 @@
-import { Sidebar, SidebarItemGroup } from 'flowbite-react'
+import { Sidebar} from 'flowbite-react'
 import { HiUser, HiArrowSmRight } from 'react-icons/hi';
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
